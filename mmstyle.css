@@ -1,0 +1,126 @@
+body {
+	max-width: 640px;
+	min-width: 360px;
+	margin: 0 auto;
+	padding: 0 0;
+	box-sizing: border-box;
+	background: url(https://ae01.alicdn.com/kf/H2d178c407149453d9420f36cb37fcfa5C.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#logo img {
+	margin: 0 auto;
+	height: 1.875rem;
+}
+
+#phone {
+	width: 100%;
+	margin: 1.875rem auto 0 auto;
+}
+
+#phone img {
+	width: 30%;
+	margin: 0 auto;
+}
+
+#download {
+	width: 70%;
+	margin: 1.875rem auto 0 auto;
+}
+
+#download dl dd {
+	height: 3.125rem;
+	line-height: 3.125rem;
+	margin-bottom: 1.25rem;
+	border: 1px solid #e1e1e1;
+	border-radius: 1.625rem;
+	font-size: 0.9375rem;
+	text-align: center;
+	overflow: hidden;
+}
+
+#download dl dd:last-child {
+	margin-bottom: 0;
+}
+
+#download dl dd a {
+	display: block;
+}
+
+#download dl dd em {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: left center;
+	color: #fff;
+}
+
+#download dl dd em.ios {
+	padding-left: 2.5rem;
+	background-image: url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-ab498c51-8871-421b-8e23-a43eaa306dff/66a0a3b5-c133-4b06-8174-7d3ff003ca98.png);
+	background-size: 1.25rem 1.5rem;
+}
+
+#download dl dd em.android {
+	padding-left: 2.625rem;
+	background-image: url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-ab498c51-8871-421b-8e23-a43eaa306dff/d0642257-b076-488f-9c73-ac06439b492e.png);
+	background-size: 1.375rem 1.625rem;
+}
+
+#download dl dd i {
+	font-size: 0.8125rem;
+}
+
+#copyright {
+	margin-top: 1.875rem;
+	line-height: 1.875rem;
+	font-size: 0.9375rem;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+}
+
+@media screen and (max-width:414px) {
+	body {
+		padding: 1rem 0;
+	}
+
+	#logo img {
+		height: 3.5rem;
+	}
+
+	#phone {
+		margin: 0.5rem auto 0 auto;
+	}
+
+	#download {
+		margin: 0.5rem auto 0 auto;
+	}
+
+	#download dl dd {
+		height: 2.5rem;
+		line-height: 2.5rem;
+		margin-bottom: 0.5rem;
+		border-radius: 1.5rem;
+		font-size: 0.875rem;
+	}
+
+	#download dl dd em.ios {
+		padding-left: 2.375rem;
+		background-size: 1.125rem 1.375rem;
+	}
+
+	#download dl dd em.android {
+		padding-left: 2.5rem;
+		background-size: 1.25rem 1.5rem;
+	}
+
+	#download dl dd i {
+		font-size: 0.75rem;
+	}
+
+	#copyright {
+		margin-top: 1.5rem;
+		line-height: 1.625rem;
+		font-size: 0.875rem;
+	}
+}
